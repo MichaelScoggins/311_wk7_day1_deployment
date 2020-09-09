@@ -1,4 +1,6 @@
 runtime: nodejs10
 
 env_variables:
-  CLOUD_INSTANCE: fake-instance
+  CLOUD_INSTANCE: nice-script-287000:us-central1:first-instance
+
+  
