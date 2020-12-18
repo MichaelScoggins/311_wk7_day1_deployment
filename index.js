@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require("express");
 const bodyParser = require("body-parser");
 const usersRouter = require('./routers/users');
@@ -13,7 +14,7 @@ app.use('/users', usersRouter)
 app.use('/auth', authRouter)
 
 app.get('/', (req, res) => {
-  res.send('Welcome to our server!')
+  res.send('Welcome to our updated updated server')
 })
 
 app.listen(port, () => {
